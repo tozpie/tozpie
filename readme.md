@@ -1,21 +1,21 @@
 <div align="center">
 
 # 🥧 TozPie Code
-### The Next-Generation Autonomous AI Coding Assistant for Modern Developers
+### The Official Autonomous AI Coding Desktop Client for TozPie Platform
 
-[![Official Website](https://img.shields.io/badge/Website-tozpie.net-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tozpie.net)
+[![Official Website](https://img.shields.io/badge/Official%20Platform-tozpie.net-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tozpie.net)
 [![GitHub Release](https://img.shields.io/github/v/release/tozpie/tozpie?style=for-the-badge&color=0EA5E9&logo=github)](https://github.com/tozpie/tozpie/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-x64-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/tozpie/tozpie/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon%20%7C%20Intel-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/tozpie/tozpie/releases/latest)
 [![Auto-Update](https://img.shields.io/badge/Auto--Update-Enabled-10B981?style=for-the-badge&logo=sparkles&logoColor=white)](https://github.com/tozpie/tozpie/releases/latest)
-[![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Freeware-8B5CF6?style=for-the-badge)](https://tozpie.net)
+[![Platform](https://img.shields.io/badge/TozPie-Ecosystem-8B5CF6?style=for-the-badge)](https://tozpie.net)
 
 <p align="center">
   <a href="#-download--installation">Download</a> •
   <a href="#-key-features">Key Features</a> •
   <a href="#-getting-started">Quick Start</a> •
   <a href="#-tiếng-việt">Tiếng Việt</a> •
-  <a href="https://tozpie.net">Official Website</a>
+  <a href="https://tozpie.net">TozPie Platform</a>
 </p>
 
 </div>
@@ -24,16 +24,16 @@
 
 ## 🌟 Overview
 
-**TozPie Code** is a high-performance desktop coding companion engineered for speed, deep workspace awareness, and autonomous task execution. Equipped with an intelligent multi-step Agent loop, unified multi-provider AI Gateway, and instant workspace navigation, TozPie Code transforms how you build, debug, and refactor software.
+**TozPie Code** is the official, dedicated desktop AI coding client built exclusively for the **[TozPie AI Platform](https://tozpie.net)**. Engineered for extreme speed, deep workspace awareness, and autonomous execution, TozPie Code connects directly to TozPie's high-throughput AI Cloud to deliver seamless software development, debugging, and code generation.
 
-* 🌐 **Official Website**: [https://tozpie.net](https://tozpie.net)
-* 📦 **Release Channel**: [tozpie/tozpie Releases](https://github.com/tozpie/tozpie/releases)
+* 🌐 **Official Platform**: [https://tozpie.net](https://tozpie.net)
+* 📦 **Download Releases**: [tozpie/tozpie Releases](https://github.com/tozpie/tozpie/releases)
 
 ---
 
 ## 📥 Download & Installation
 
-Get the latest production release for your platform from **[Releases](https://github.com/tozpie/tozpie/releases/latest)**:
+Get the latest official release directly from **[Releases](https://github.com/tozpie/tozpie/releases/latest)**:
 
 ### 🪟 Windows (Windows 10 / 11 64-bit)
 
@@ -53,46 +53,40 @@ Get the latest production release for your platform from **[Releases](https://gi
 
 ## ✨ Key Features
 
-### 🤖 1. Autonomous AI Coding Agent
-- **Full Workspace Analysis**: Recursively explores project structure, inspects codebases, and pinpoints relevant dependencies.
-- **Smart Context Budgeting**: Handles large codebases with up to 250,000+ characters of active context budget without memory degradation or premature loop timeouts.
-- **Multi-Turn Tool Orchestration**: Reads, creates, patches multi-file edits, and executes terminal commands safely.
+### 🤖 1. Autonomous TozPie Coding Agent
+- **Full Workspace Awareness**: Analyzes your directory tree, dependencies, and file relationships.
+- **Large Context Budget**: Optimized memory management handling 250,000+ characters of active workspace context.
+- **Autonomous Multi-Turn Execution**: Reads files, applies precise multi-location edits, runs terminal commands, and resolves complex issues without getting stuck.
 
-### 🌐 2. Universal Multi-LLM Gateway
-- Connect directly to leading foundation models or self-hosted engines:
-  - **OpenRouter** (Aggregated multi-provider catalog)
-  - **Anthropic** (Claude 3.7 Sonnet, Claude 3.5 Sonnet)
-  - **OpenAI** (GPT-4o, GPT-4o-mini, o3-mini)
-  - **Google Gemini** (Gemini 2.5 Flash, Gemini 2.5 Pro)
-  - **DeepSeek** (DeepSeek-V3, DeepSeek-R1)
-  - **Local Ollama & Custom Endpoints** (`http://localhost:11434`, custom OpenAI-compatible gateways)
+### ⚡ 2. Direct TozPie AI Cloud Integration
+- Native connection to TozPie's high-performance AI Gateway with enterprise quota management and sub-millisecond overhead.
+- Optimized specifically for TozPie's state-of-the-art coding models.
 
-### 🔄 3. Seamless Differential Auto-Updates
-- Built-in background update detection powered by GitHub Releases.
-- Fast differential delta downloads (`.blockmap`) saving bandwidth.
-- Zero-friction one-click reload to apply updates.
+### 🔄 3. Seamless Auto-Updates
+- Automatic background version detection via official TozPie release manifests.
+- Fast differential delta downloads (`.blockmap`) with instant one-click restart.
 
-### 🛡️ 4. Granular Permission Control
-- Visual docked permission bar prompts you before executing destructive commands or writing changes.
-- Switch seamlessly between **Pure Chat** (conversational advice) and **Auto Agent** (autonomous execution).
+### 🛡️ 4. Workspace Security & Permission Dock
+- Fine-grained permission controls: Prompts you before any destructive file edits or terminal command execution.
+- Effortlessly toggle between **Pure Chat** mode and **Auto Agent** mode.
 
-### 🔍 5. Instant Command Palette & Workspace Switching
-- Press `Ctrl + K` to search through previous sessions across any workspace.
-- Selecting a chat automatically restores the corresponding project folder and file tree context.
+### 🔍 5. Quick Command Palette & Workspace Switching
+- Instant session search across all your projects (`Ctrl + K`).
+- Automatically switches workspace and file tree when selecting a past conversation.
 
-### 🌍 6. 100% Native Bilingual UI
-- Flawless localization between **English** and **Tiếng Việt** across all dialogs, settings, and agent step streams.
+### 🌍 6. 100% Native Bilingual Experience
+- Clean, fully localized interface with instant toggle between **English** and **Tiếng Việt**.
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Install TozPie Code**: Download and run the installer for your operating system.
-2. **Open Your Project**: Click **Open Workspace** (or `Ctrl + O`) and select your repository folder.
-3. **Configure API Keys**:
+1. **Install**: Download and install TozPie Code for your OS.
+2. **Open Workspace**: Open your project folder (`Ctrl + O`).
+3. **Connect Account**:
    - Go to **Settings ➔ AI Gateway**.
-   - Input your API Key (OpenRouter, Gemini, OpenAI, Claude, etc.) or connect to your local Ollama instance.
-4. **Start Coding**: Ask questions, describe a feature to implement, or drag and drop images/documents directly into the prompt composer.
+   - Enter your **TozPie API Key** generated from your dashboard at [https://tozpie.net](https://tozpie.net).
+4. **Start Building**: Ask questions, request new features, or let the Agent build features autonomously!
 
 ---
 
@@ -102,8 +96,8 @@ Get the latest production release for your platform from **[Releases](https://gi
 | :--- | :--- | :--- |
 | **Operating System** | Windows 10 (64-bit) / macOS 12+ | Windows 11 / macOS 14+ Sonoma |
 | **Memory (RAM)** | 4 GB | 8 GB or higher |
-| **Storage Space** | 500 MB free space | 1 GB SSD |
-| **Network** | Internet connection for cloud LLMs | High-speed broadband |
+| **Storage** | 500 MB free space | 1 GB SSD |
+| **Internet** | Required for TozPie AI Cloud connection | High-speed broadband |
 
 ---
 
@@ -112,16 +106,16 @@ Get the latest production release for your platform from **[Releases](https://gi
 
 <br/>
 
-### Giới thiệu TozPie Code
-**TozPie Code** là ứng dụng trợ lý lập trình AI thế hệ mới trên Desktop, tích hợp Agent tự động hóa, Multi-LLM Gateway và giao diện tối ưu hóa cho lập trình viên hiện đại.
+### 🥧 Giới thiệu TozPie Code Desktop
+**TozPie Code** là ứng dụng desktop chính thức độc quyền thuộc hệ sinh thái **[TozPie AI Platform](https://tozpie.net)**, được phát triển tối ưu riêng cho việc hỗ trợ lập trình tự động hóa với tốc độ cao.
 
-- 🤖 **Autonomous AI Coding Agent**: Phân tích toàn bộ workspace, tự động đọc/ghi file, thực thi lệnh terminal và giải quyết task phức tạp theo vòng lặp thông minh.
-- 🌐 **Multi-Provider AI Gateway**: Hỗ trợ OpenRouter, OpenAI, Anthropic Claude, Google Gemini, Ollama Local và Custom Base URL.
-- ⚡ **Seamless Auto-Update**: Ứng dụng tự động kiểm tra, tải về và cập nhật phiên bản mới nhất trong nền hoàn toàn miễn phí.
-- 🛡️ **Kiểm soát quyền chặt chẽ**: Thanh cấp quyền trực quan cho phép bạn kiểm soát từng thao tác đọc/ghi file hoặc chạy lệnh terminal.
-- 🌍 **Đa ngôn ngữ hoàn chỉnh**: Hỗ trợ đầy đủ tiếng Việt và tiếng Anh chuẩn bản địa.
+- 🤖 **Autonomous TozPie AI Agent**: Phân tích toàn bộ dự án, tự động đọc/sửa code, thực thi lệnh terminal và sửa lỗi theo chu trình thông minh.
+- ⚡ **Kết nối trực tiếp TozPie Cloud**: Tích hợp hoàn hảo với hệ thống hạ tầng AI Gateway của TozPie tại [tozpie.net](https://tozpie.net).
+- 🔄 **Cập nhật tự động mượt mà**: Tự động tải và áp dụng bản cập nhật mới trong nền hoàn toàn miễn phí.
+- 🛡️ **Bảo mật tuyệt đối**: Kiểm soát chặt chẽ quyền đọc/ghi file và thực thi lệnh qua thanh phân quyền trực quan.
+- 🌍 **Hỗ trợ song ngữ hoàn chỉnh**: Tiếng Việt và Tiếng Anh chuẩn bản địa.
 
-**Trang chủ chính thức:** [https://tozpie.net](https://tozpie.net)
+**Trang chủ nền tảng:** [https://tozpie.net](https://tozpie.net)
 
 </details>
 
@@ -129,12 +123,12 @@ Get the latest production release for your platform from **[Releases](https://gi
 
 ## 📬 Support & Community
 
-- 🌐 **Website**: [https://tozpie.net](https://tozpie.net)
-- 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/tozpie/tozpie/issues)
-- 💬 **Discussions & Feedback**: [GitHub Discussions](https://github.com/tozpie/tozpie/discussions)
+- 🌐 **Platform**: [https://tozpie.net](https://tozpie.net)
+- 🐛 **Issues & Feedback**: [GitHub Issues](https://github.com/tozpie/tozpie/issues)
+- 💬 **Community**: [GitHub Discussions](https://github.com/tozpie/tozpie/discussions)
 
 ---
 
 <div align="center">
-  <sub>Engineered with ❤️ by <b>TozPie Team</b> • © 2026 TozPie. All rights reserved.</sub>
+  <sub>Official Client for <b>TozPie Platform</b> • © 2026 TozPie. All rights reserved.</sub>
 </div>
